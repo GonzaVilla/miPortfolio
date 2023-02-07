@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gonzalovilla</title>
+    <title>Gonzavilla</title>
+    <link rel="shortcut icon" href="./img/dot-new.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="https://kit.fontawesome.com/ddef00655d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar" id="navbar">
@@ -21,22 +22,29 @@
         <div class="main-innerContainer" id="main-innerContainer1">
             <section class="informacion">
                 <div class="informacion__containerDescripcion">
-                    <span class="informacion__saludo">HELLO,</span>
-                    <h1 class="informacion__nombre"><span>SOY Gonzalo Villarroel</span></h1>
-                    <p class="informacion__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nulla repellendus ipsa mollitia voluptatum a error culpa dignissimos quasi amet expedita, sint ad, dolor vel eaque, repudiandae eum! Doloribus, tenetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque modi dolorem quos nostrum magnam excepturi aliquid</p>
+                    <div class="informacion__saludo">
+                        <span class="informacion__saludo">HELLO,</span>
+                    </div>
+                    <div class="informacion__nombre">
+                        <h1><span>SOY Gonzalo Villarroel</span></h1>
+                    </div>
+                    <div class="informacion__parrafo">
+                        <p><span class="typed"></span></p></div>
                 </div>
                 <div class="informacion__containerMiFoto">
-                    <img class="informacion__miFoto" src="img/icono-programador.png" alt="icono-programador">
+                    <div class="informacion__miFoto">
+                        <img src="img/icono-programador.png" alt="icono-programador">
+                    </div>
                 </div>
             </section>
         </div>
         <div class="main-innerContainer" id="main-innerContainer2" style="display: none;">
             <section class="curriculum">
                 <div class="curriculum__containerTitulo">
-                    <h1 class="curriculum__titulo">CURRICULUM/FRONT-END DEVELOPER</h1>
+                    <h1 class="curriculum__titulo">CURRICULUM FRONT-END DEVELOPER</h1>
                 </div>    
                 <div class="curriculum__containerExperiencia">
-                    <h2 class="curriculum__experienciaTitulo">EXPERIENCIA</h2>
+                    <h2 class="curriculum__subTitulo">EXPERIENCIA</h2>
                     <div class="curriculum__containerDescripcion">
                         <h5>dlisjdiosjdio dijsiodjisda</h5>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea facere quas, placeat, aut eius et distinctio at tenetur nemo suscipit sint provident architecto hic aliquam rerum non asperiores ad commodi?</p>
@@ -47,13 +55,13 @@
                     </div>
                 </div>
                 <div class="curriculum__containerSkills">
-                    <h2 class="curriculum__skillTitulo">HABILIDADES</h2>
+                    <h2 class="curriculum__subTitulo">HABILIDADES</h2>
                     <div class="curriculum__containerDescripcion">
                         <h5>Lenguajes de Programación</h5>
                         <P>CSS, BOOTSTRAP, TAILWIND, SASS</P>
                         <P>HTML5, XML</P>
                         <P>javascript, REACT, VUEJS</P>
-                        <h5>Herraminetas</h5>
+                        <h5>Herramientas</h5>
                         <p>Git, github, figma, Bem </p>
                         <H5>Lenguajes</H5>
                         <P>Español: Nativo</P>
@@ -61,7 +69,7 @@
                     </div>
                 </div>
                 <div class="curriculum__containerCertificados">
-                    <h2 class="curriculum__certificadosTitulo">CERTIFICADOS</h2>
+                    <h2 class="curriculum__subTitulo">CERTIFICADOS</h2>
                     <div class="curriculum__containerDescripcion">
                         <h5>Lorem ipsum dolor sit.</h5>
                         <p>idufsdufsd ndjfsodu89uidjic0</p>
@@ -76,11 +84,27 @@
                 </div>
                 <div class="card">
                     <div class="card__containerImg">
-                        <img class="card__img" src="" alt="">
+                        <a href="http://https://gonzavilla.github.io/App-Budget/">
+                            <img class="card__img" src="./img/app-1.png" alt="app-Budget">
+                        </a>
                     </div>
                     <div class="card__conatainerDescripcion">
-                        <h4 class="card__titulo">Proyecto 1</h4>
-                        <p class="card__parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam dolor consequuntur corporis. Aliquam officiis earum quae delectus itaque eaque, dolores ipsum tempore eveniet sed unde possimus beatae voluptatem mollitia voluptates?</p>
+                        <h4 class="card__titulo">Calcúlaló</h4>
+                        <p class="card__parrafo">Este aplicación fue desarrollada con el fin de simplificar la 
+                            elaboración de una hoja presupuestal , es sencilla y facil de 
+                            utilizar. La app se encuentra disponible en la nube.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__containerImg">
+                        <a href="http://">
+                            <img class="card__img" src="./img/workinprogress.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="card__conatainerDescripcion">
+                        <h4 class="card__titulo">MIFono</h4>
+                        <p class="card__parrafo">Miforno es un sitio web que clasifica smartphones de manera intuitiva usando emojis como fuente inspiradora para ayudar a la gente en la compra de un teléfono móvil.<br>
+                        Hecha un vistazo y veras de lo que hablo.</p>
                     </div>
                 </div>
                 <div class="card">
@@ -88,17 +112,8 @@
                         <img class="card__img" src="" alt="">
                     </div>
                     <div class="card__conatainerDescripcion">
-                        <h4 class="card__titulo">Proyecto 2</h4>
-                        <p class="card__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima odio modi hic itaque quam, quod aperiam facilis quis nostrum repudiandae saepe veniam mollitia adipisci est, error tempore, debitis quidem tenetur.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__containerImg">
-                        <img class="card__img" src="" alt="">
-                    </div>
-                    <div class="card__conatainerDescripcion">
-                        <h4 class="card__titulo">Proyecto 1</h4>
-                        <p class="card__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quam, deleniti aspernatur quisquam aperiam excepturi mollitia a dolorem, explicabo impedit ex, porro natus ipsa totam. Eaque eos dolorem odit? Voluptas.</p>
+                        <h4 class="card__titulo">The Graphene</h4>
+                        <p class="card__parrafo">The Graphene es un portal web enfocado llevar información más reciente sobre el Grafeno, un material milagroso que puede ayudar al progreso tecnológico y al desarrollo Científico.</p>
                     </div>
                 </div>
             </section>
@@ -127,6 +142,9 @@
             </div>      
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/ddef00655d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="js/main.js" type="text/javascript"></script>
+    <script src="./js/typed.js" type="text/javascript"></script>
 </body>
 </html>
